@@ -1,0 +1,7 @@
+[08-Aug-2018 18:29:35 UTC] PHP Warning:  sprintf(): Too few arguments in /home/thecozwf/gotomyreview.com/platas-discount/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[08-Aug-2018 18:29:36 UTC] PHP Warning:  sprintf(): Too few arguments in /home/thecozwf/gotomyreview.com/platas-discount/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[08-Aug-2018 19:52:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thecozwf/gotomyreview.com/platas-discount/wp-content/plugins/revslider-master/includes/framework/cssparser.class.php on line 152
+[09-Aug-2018 02:18:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/thecozwf/gotomyreview.com/platas-discount/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[09-Aug-2018 02:18:07 UTC] PHP Warning:  sprintf(): Too few arguments in /home/thecozwf/gotomyreview.com/platas-discount/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[09-Aug-2018 03:30:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/thecozwf/gotomyreview.com/platas-discount/wp-includes/class-wp-image-editor.php on line 402
+[09-Aug-2018 03:36:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/thecozwf/gotomyreview.com/platas-discount/wp-includes/class-wp-image-editor-imagick.php on line 362

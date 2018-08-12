@@ -1,0 +1,471 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wpf_sos{
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.wfbtn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #2b698f 3px;
+    text-decoration: none;
+}
+.wftooltip {
+    display:none;
+    position:absolute;
+    border:1px solid #333;
+    background-color:#161616;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:12px;
+}
+.wfbtn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.makeFeedResponse{
+    width: 70%;
+    color: green;
+}
+
+.woo-feed-mapping-input {
+    width: 100%;
+}
+
+.requiredIn {
+    color: red;
+}
+
+.generalInput {
+    width: 200px;
+}
+
+.typeahead {
+    z-index: 1051;
+}
+
+.error {
+    color: red;
+}
+
+/*.widefat th {*/
+/*text-align: center;*/
+/*}*/
+
+#wf_newRow {
+    margin-left: 0px;
+}
+
+.mtable tbody tr {
+    height: 25px;
+    border: 1px solid #CCC;
+    text-align: left;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.mtable th:nth-child(1) {
+    width: 17px;
+}
+
+.mtable th:nth-child(2) {
+    width: 160px;
+}
+
+.mtable th:nth-child(3) {
+    width: 100px;
+}
+
+.mtable th:nth-child(4) {
+    width: 100px;
+}
+
+.mtable th:nth-child(5) {
+    width: 150px;
+}
+
+.mtable th:nth-child(6) {
+    width: 100px;
+}
+
+.mtable th:nth-child(7) {
+    width: 150px;
+}
+
+.mtable th:nth-child(8) {
+    width: 90px;
+}
+
+.mtable th:nth-child(9) {
+    width: 29px;
+}
+
+.wfnoempty{
+    width:120px;
+}
+
+.wf_mattributes {
+    width: 150px;
+    left: 0;
+    height: 25px;
+}
+
+.wf_attributes {
+    width: 150px;
+    left: 0
+}
+.wf_compare {
+    max-width: 245px;
+    left: 0
+}
+
+.wf_ps {
+    width: 100px;
+    left: 0
+}
+
+
+.wf_sortedtable {
+    cursor: move;
+}
+
+.mtable2 tbody tr {
+    height: 25px;
+    border: 1px solid #CCC;
+    text-align: left;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.mtable2 th:nth-child(1) {
+    width: 30px;
+}
+
+.mtable2 th:nth-child(2) {
+    width: 150px;
+}
+
+.mtable2 th:nth-child(3) {
+    width: 230px;
+}
+
+.mtable2 th:nth-child(4) {
+    width: 220px;
+}
+
+/*.mtable2 th:nth-child(5) {*/
+    /*width: 200px;*/
+/*}*/
+
+/*.mtable2 th:nth-child(6) {*/
+    /*width: 200px;*/
+/*}*/
+
+.mtable2 th:nth-child(7) {
+    width: 50px;
+}
+
+.mtable2 th:nth-child(8) {
+    width: 50px;
+}
+
+.mtable2 th:nth-child(9) {
+    width: 29px;
+}
+
+/*==================Tab Design=======================*/
+
+p {
+    color: #222;
+}
+
+.wf_tabs {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    /*bottom: 50px;*/
+
+}
+
+.wf_tabs:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.wf_tabs li {
+    float: left;
+    width: 20%;
+    display: block;
+    border: 2px solid #CCC;
+}
+
+.wf_tabs input[type="radio"] {
+    position: absolute;
+    top:auto;
+    left: -9999px;
+    /*overflow: hidden;*/
+}
+
+.wf-tab-name {
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2CC185;
+}
+
+.wf-tab-name:hover {
+    background: #2CC185;
+    color: white;
+}
+
+.wf_tabs .wf-tab-content {
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    font-size: 0.9rem;
+    /*line-height: 5px;*/
+    /*padding: 5px;*/
+    position: absolute;
+    left: 0;
+    background: #fff;
+    border: 2px solid #CCC;
+}
+
+.wf_tabs [id^="tab"]:checked + label {
+    background: #2CC185;
+    color: white;
+}
+
+.wf_tabs [id^="tab"]:checked ~ [id^="wf-tab-content"] {
+    display: block;
+}
+
+/**
+* Premium Page Design
+*/
+.woo_feed_free_manage_attribute {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.woo_feed_screenshort{
+    max-width: 100%;
+    width: 1000px;
+    border: 3px solid #00b9eb;
+    display: block;
+    margin: 0 auto;
+}
+
+.woo-feed-screen-shot-title{
+    font-size: 36px;
+    text-align: center;
+    box-sizing: content-box;
+    color: #00b9eb;
+}
+
+.woo_feed_screen {
+    background: #fff;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+
+.woo_feed_screen_des{
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+    font-size: 16px;
+    color: #666;
+}
+.woo_feed_screen_des_2{
+    text-align: center;
+    margin: 20px 50px 5px 50px;
+    font-size: 14px;
+    color: #32373c;
+}
+
+/* Feed active and inactive button CSS */
+.wf_status_wrap label{
+    width:50px;
+    height:25px;
+    box-sizing:border-box;
+    border :1px solid;
+    float:left;
+    border-radius:100px;
+    position:relative;
+    cursor:pointer;
+    transition:.3s ease;
+}
+input[class=woo_feed_status_input]:checked  + label{
+    background:#55e868;
+}
+input[class=woo_feed_status_input]:checked + label:before{
+    left:25px;
+}
+.wf_status_wrap label:before{
+    transition:.3s ease;
+    content:'';
+    width:20px;
+    height:20px;
+    position:absolute;
+    background:white;
+    left:2px;
+    top:2px;
+    box-sizing:border-box;
+    border:1px solid;
+    color:black;
+    border-radius:100px;
+}
+
+/*Google Taxonomy creating modal*/
+._wf_popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:absolute !important;
+    z-index: 1050;
+    background:rgba(4, 4, 4, 0.85);
+    max-height: 100%;
+    overflow-y: auto !important;
+}
+
+/* Inner */
+._wf_popup-inner {
+    max-width:500px;
+    width:90%;
+    padding:40px;
+    position:absolute !important;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    z-index: 1050;
+}
+
+/* Close Button */
+._wf_popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+._wf_popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+/*Plugin  Deactivation popup*/
+.wpf_deactive_plugin-modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.wpf_deactive_plugin-modal.modal-active {
+    display: block;
+}
+
+.wpf_deactive_plugin-modal-wrap {
+    width: 475px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+}
+
+.wpf_deactive_plugin-modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 8px 20px;
+}
+
+.wpf_deactive_plugin-modal-header h3 {
+    line-height: 150%;
+    margin: 0;
+}
+
+.wpf_deactive_plugin-modal-body {
+    padding: 5px 20px 20px 20px;
+}
+
+.wpf_deactive_plugin-modal-body .reason-input {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.wpf_deactive_plugin-modal-footer {
+    border-top: 1px solid #eee;
+    padding: 12px 20px;
+    text-align: right;
+}
